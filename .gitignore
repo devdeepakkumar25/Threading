@@ -1,0 +1,91 @@
+############################
+#        PYTHON            #
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+.env
+.venv/
+venv/
+
+# Jupyter / data
+.ipynb_checkpoints/
+*.sqlite3
+*.db
+
+
+############################
+#         JAVASCRIPT       #
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.eslintcache
+
+
+############################
+#           JAVA           #
+############################
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# IDEs
+.classpath
+.project
+.settings/
+*.class
+
+############################
+#         GENERAL          #
+############################
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / Secrets (IMPORTANT for trading apps)
+.env
+*.env.local
+*.key
+*.pem
+*.crt
+secrets.json
+
+############################
+#        EDITORS / IDE     #
+############################
+# VSCode
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
